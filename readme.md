@@ -3,7 +3,7 @@
 
 ## Switch Replacement
 
-| Part | Qty |
+| Parts needed | Qty |
 | - | - |
 | Momentary SPST Footswitch | 4 |
 
@@ -17,7 +17,6 @@
 
 ## Double Presets
 
-! REPLACE PICTURE !
 ![doublepresetschem](/pictures/doublepresetschem.png)
 
 Isolate expression jack tabs to avoid shorting the tip to ground when no plug is inserted
