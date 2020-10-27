@@ -1,6 +1,8 @@
 # DL4 Mods
 
 
+
+
 ## Switch Replacement wip
 
 | Parts needed | Qty |
@@ -8,7 +10,7 @@
 | Momentary SPST Footswitch | 4 |
 <br>
 
-Disassemble the pedal, remove the old switch bodies. Remove nubs in switch holes with e.g. a file, rotary tool or a 12mm drill bit.
+Disassemble the pedal, remove the old switch bodies. Remove nubs in switch holes with e.g. a file, rotary tool or a 12mm / 1/2" drill bit.
 
 ![switches1](pictures/switches1.jpg)
 
@@ -17,6 +19,8 @@ Install the switches without the nut or washers on the inside, this way the pcb 
 ![switches2](pictures/switches2.jpg)
 
 Wire new switches to the pads of the tactile switches.
+
+
 
 
 ## Led Replacement
@@ -30,7 +34,10 @@ Desolder the old LEDs.
 ![leds1](pictures/leds1.jpg)
 Using the spacers from the old LEDs, install the new LEDs aligning the longer leg of the LED with the + on the PCB.
 ![leds2](pictures/leds2.jpg)
-If using 5mm LEDs you might have to drill the holes to match.
+If using 5mm LEDs you might have to drill the holes in the enclosure to match.
+
+
+
 
 ## Double Presets Footswitch wip
 
@@ -57,48 +64,83 @@ Isolate expression jack tabs (tape, bending?) to avoid shorting the tip to groun
 (pic of isolated tabs)
 
 
+
+
 ## Expression Knob wip
 
 | Parts needed | Qty |
 | - | - |
 | 10K Linear Potentiometer | 1 |
+| Potentiometer Knob | 1 |
 <br>
 
 ![expressionknob](pictures/expressionknob.png)
+
+Drill a hole for the potentiometer on an end of the battery bay approx. 20mm from the front edge and 18mm from the bottom, or whatever dimensions suit your knob.
+
+![expknob](pictures/expknob1.jpg)
+
+![expknob2](pictures/expknob2.jpg)
 
 Isolate expression jack tabs to avoid shorting the tip to ground when no plug is inserted
 
 (pic of jack tabs)
 
 
+
+
+## Switching between double presets and expression knob wip
+
+| Parts needed | Qty |
+| - | - |
+| SPDT toggle switch | 1 |
+<br>
+
+![toggleschem](pictures/toggleschem.png)
+
+
+
+![switch1](pictures/switch1.jpg)
+
+
+
+
+
+
 ## External Tap Tempo wip
-From [Kyle Agee](https://web.archive.org/web/20110130235011/http://kyleagee.com/?page_id=105)
+[Source](https://web.archive.org/web/20110130235011/http://kyleagee.com/?page_id=105)
 
 | Parts needed | Qty |
 | - | - |
 | Mono Jack | 1 |
 <br>
 
-Drill a hole for the jack on the right end of the battery bay approx. 20mm from the front edge and 14mm from the bottom
+![externaltap](pictures/externaltap.png)
+
+Drill a hole for the jack on the end of the battery bay approx. 20mm from the front edge and 14mm from the bottom
 
 ![exttap](pictures/externaltap1.jpg)
 
 
-The jack is installed parallel to the tap tempo switch, connecting the tip of the jack to a top pad of the switch, sleeve on a bottom pad.
-
-![externaltap](pictures/externaltap.png)
+The jack is installed parallel to the tap tempo switch, connecting the jack's tip to a top pad of the switch, sleeve on a bottom pad.
 
 
-## Feedback Loop
-From [zemekky](https://web.archive.org/web/20101130103726/http://experimentalistsanonymous.com/board/index.php?topic=82.msg3557)
+
+
+## Feedback Loop wip
+[Source](https://web.archive.org/web/20101130103726/http://experimentalistsanonymous.com/board/index.php?topic=82.msg3557)
 
 | Parts needed | Qty |
 | - | - |
 | Momentary SPST Footswitch | 1 |
+| (opt) XX Potentiometer | 1 |
 <br>
 
+
+
+
 ## Volume Drop Fix
-From [drgonzoguitar](https://web.archive.org/web/20201027203217/https://www.harmonycentral.com/forums/topic/119557-line-6-mm4dl4-volume-fix-without-using-smt-resistors/)
+[Source](https://web.archive.org/web/20201027203217/https://www.harmonycentral.com/forums/topic/119557-line-6-mm4dl4-volume-fix-without-using-smt-resistors/)
 
 | Parts needed | Qty |
 | - | - |
