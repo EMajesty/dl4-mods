@@ -1,7 +1,7 @@
 # DL4 Mods
 
 
-## Switch Replacement
+## Switch Replacement wip
 
 | Parts needed | Qty |
 | - | - |
@@ -12,11 +12,11 @@
 * Wire new switches to (???) pads of the tactile switches
 
 
-## Led Replacement
+## Led Replacement wip
 
 * Stuff
 
-## Double Presets
+## Double Presets wip
 
 | Parts needed | Qty |
 | - | - |
@@ -32,7 +32,7 @@
 (pic of isolated tabs)
 
 
-## Expression Knob
+## Expression Knob wip
 
 | Parts needed | Qty |
 | - | - |
@@ -45,7 +45,7 @@
 (pic of jack tabs)
 
 
-## External Tap Tempo
+## External Tap Tempo wip
 
 | Parts needed | Qty |
 | - | - |
@@ -53,6 +53,3 @@
 
 Jack parallel to tap switch?
 ![externaltap](pictures/externaltap.png)
-
-
-## Paint?
