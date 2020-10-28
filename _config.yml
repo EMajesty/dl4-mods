@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 remote_theme: b2a3e8/jekyll-theme-console
+=======
+theme: jekyll-theme-midnight
+>>>>>>> 906279feb6c1a40aea18de6fe41c29c9e6dd419d
 logo: https://luetze.net/under_construction.png
