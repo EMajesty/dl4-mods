@@ -6,7 +6,7 @@
 ## Switch Replacement wip
 
 | Parts needed | Qty |
-| - | - |
+| --- | --- |
 | Momentary SPST Footswitch | 4 |
 <br>
 
@@ -26,7 +26,7 @@ Wire new switches to the pads of the tactile switches.
 ## Led Replacement
 
 | Parts needed | Qty |
-| - | - |
+| --- | --- |
 | 3mm/5mm LEDs | 4 |
 <br>
 
@@ -42,7 +42,7 @@ If using 5mm LEDs you might have to drill the holes in the enclosure to match.
 ## Double Presets Footswitch wip
 
 | Parts needed | Qty |
-| - | - |
+| --- | --- |
 | Latching SPST Footswitch | 1 |
 | 10K Resistor | 1 |
 | LED | 1 |
@@ -69,7 +69,7 @@ Isolate expression jack tabs (tape, bending?) to avoid shorting the tip to groun
 ## Expression Knob wip
 
 | Parts needed | Qty |
-| - | - |
+| --- | --- |
 | 10K Linear Potentiometer | 1 |
 | Potentiometer Knob | 1 |
 <br>
@@ -92,7 +92,7 @@ Isolate expression jack tabs to avoid shorting the tip to ground when no plug is
 ## Switching between double presets and expression knob wip
 
 | Parts needed | Qty |
-| - | - |
+| --- | --- |
 | SPDT toggle switch | 1 |
 <br>
 
@@ -111,7 +111,7 @@ Isolate expression jack tabs to avoid shorting the tip to ground when no plug is
 [Source](https://web.archive.org/web/20110130235011/http://kyleagee.com/?page_id=105)
 
 | Parts needed | Qty |
-| - | - |
+| --- | --- |
 | Mono Jack | 1 |
 <br>
 
@@ -131,7 +131,7 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 [Source](https://web.archive.org/web/20101130103726/http://experimentalistsanonymous.com/board/index.php?topic=82.msg3557)
 
 | Parts needed | Qty |
-| - | - |
+| --- | --- |
 | Momentary SPST Footswitch | 1 |
 | (opt) XX Potentiometer | 1 |
 <br>
@@ -143,7 +143,7 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 [Source](https://web.archive.org/web/20201027203217/https://www.harmonycentral.com/forums/topic/119557-line-6-mm4dl4-volume-fix-without-using-smt-resistors/)
 
 | Parts needed | Qty |
-| - | - |
+| --- | --- |
 | 22K-24K Resistor | 2 |
 | or |
 | 56K-68K Resistor | 2 |
