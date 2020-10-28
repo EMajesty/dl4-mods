@@ -1,4 +1,4 @@
-# ⚠ If it smells like chicken you're doing it wrong ⚠
+# 
 
 <br>
 
@@ -10,9 +10,13 @@ Jack nuts
 
 Bottom plate
 
-Remove the four screws and the hex standoff. To make room for the external tap tempo jack and the expression knob, desolder the battery cables and remove the battery contacts.
+Remove the four screws and the hex standoff.
+
+Desolder the battery cables and remove the battery contacts to make room for the external tap tempo jack and the expression knob.
 
 ![dis4](pictures/disassembly4.jpg)
+
+Lift the PCB out by the front (standoff side) edge.
 
 <br>
 
@@ -24,11 +28,15 @@ Remove the four screws and the hex standoff. To make room for the external tap t
 
 <br>
 
-Remove the old switch bodies. Remove nubs in switch holes with e.g. a file, rotary tool or a 12mm / 1/2" drill bit.
+Remove the old switch bodies by undoing the nut on the outside.
+
+Remove nubs in switch holes with e.g. a file, rotary tool or a 12mm / 1/2" drill bit.
 
 ![switches1](pictures/switches1.jpg)
 
-Install the switches without the nut or washers on the inside, this way the pcb should fit without desoldering the original tactile switches.
+Install the switches without the nut or washers on the inside.
+
+This way the pcb should fit without desoldering the original tactile switches.
 
 ![switches2](pictures/switches2.jpg)
 
