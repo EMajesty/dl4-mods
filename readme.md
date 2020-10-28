@@ -3,6 +3,8 @@
 
 
 
+<br>
+
 ## Switch Replacement wip
 
 | Parts needed | Qty |
@@ -24,6 +26,8 @@ Wire new switches to the pads of the tactile switches.
 
 
 
+<br>
+
 ## Led Replacement
 
 | Parts needed | Qty |
@@ -40,6 +44,8 @@ If using 5mm LEDs you might have to drill the holes in the enclosure to match.
 
 
 
+
+<br>
 
 ## Double Presets Footswitch wip
 
@@ -67,7 +73,7 @@ Isolate expression jack tabs (tape, bending?) to avoid shorting the tip to groun
 (pic of isolated tabs)
 
 
-
+<br>
 
 ## Expression Knob wip
 
@@ -91,7 +97,7 @@ Isolate expression jack tabs to avoid shorting the tip to ground when no plug is
 (pic of jack tabs)
 
 
-
+<br>
 
 ## Switching between double presets and expression knob wip
 
@@ -110,7 +116,7 @@ Isolate expression jack tabs to avoid shorting the tip to ground when no plug is
 
 
 
-
+<br>
 
 ## External Tap Tempo wip
 [Source](https://web.archive.org/web/20110130235011/http://kyleagee.com/?page_id=105)
@@ -131,7 +137,7 @@ Drill a hole for the jack on the end of the battery bay approx. 20mm from the fr
 The jack is installed parallel to the tap tempo switch, connecting the jack's tip to a top pad of the switch, sleeve on a bottom pad.
 
 
-
+<br>
 
 ## Feedback Loop wip
 [Source](https://web.archive.org/web/20101130103726/http://experimentalistsanonymous.com/board/index.php?topic=82.msg3557)
@@ -144,7 +150,7 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 <br>
 
 
-
+<br>
 
 ## Volume Drop Fix
 [Source](https://web.archive.org/web/20201027203217/https://www.harmonycentral.com/forums/topic/119557-line-6-mm4dl4-volume-fix-without-using-smt-resistors/)
