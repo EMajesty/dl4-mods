@@ -6,8 +6,9 @@
 ## Switch Replacement wip
 
 | Parts needed | Qty |
-| ------------ | ----- |
+| --- | --- |
 | Momentary SPST Footswitch | 4 |
+
 <br>
 
 Disassemble the pedal, remove the old switch bodies. Remove nubs in switch holes with e.g. a file, rotary tool or a 12mm / 1/2" drill bit.
@@ -28,6 +29,7 @@ Wire new switches to the pads of the tactile switches.
 | Parts needed | Qty |
 | --- | --- |
 | 3mm/5mm LEDs | 4 |
+
 <br>
 
 Desolder the old LEDs.
@@ -47,6 +49,7 @@ If using 5mm LEDs you might have to drill the holes in the enclosure to match.
 | 10K Resistor | 1 |
 | LED | 1 |
 | LED Holder | 1 |
+
 <br>
 
 ![doublepresetschem](/pictures/doublepresetschem.png)
@@ -72,6 +75,7 @@ Isolate expression jack tabs (tape, bending?) to avoid shorting the tip to groun
 | --- | --- |
 | 10K Linear Potentiometer | 1 |
 | Potentiometer Knob | 1 |
+
 <br>
 
 ![expressionknob](pictures/expressionknob.png)
@@ -94,6 +98,7 @@ Isolate expression jack tabs to avoid shorting the tip to ground when no plug is
 | Parts needed | Qty |
 | --- | --- |
 | SPDT toggle switch | 1 |
+
 <br>
 
 ![toggleschem](pictures/toggleschem.png)
@@ -113,6 +118,7 @@ Isolate expression jack tabs to avoid shorting the tip to ground when no plug is
 | Parts needed | Qty |
 | --- | --- |
 | Mono Jack | 1 |
+
 <br>
 
 ![externaltap](pictures/externaltap.png)
@@ -134,6 +140,7 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 | --- | --- |
 | Momentary SPST Footswitch | 1 |
 | (opt) XX Potentiometer | 1 |
+
 <br>
 
 
@@ -147,6 +154,7 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 | 22K-24K Resistor | 2 |
 | or |
 | 56K-68K Resistor | 2 |
+
 <br>
 
 Either remove R36 and R37 and replace with 22K-24K resistors, or solder 56K-68K resistors parallel to the original resistors.
