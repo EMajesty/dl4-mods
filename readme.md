@@ -1,8 +1,16 @@
+⚠ If it smells like chicken you're holding the soldering iron wrong ⚠
+
+<br>
+
+## Disassembly
+
+<br>
+
 ## Switch Replacement wip
 
 | Parts needed | Qty |
 | --- | --- |
-| Momentary SPST Footswitch | 4 |
+| Momentary SPST footswitch | 4 |
 
 <br>
 
@@ -44,10 +52,10 @@ If using 5mm LEDs you might have to drill the holes in the enclosure to match.
 
 | Parts needed | Qty |
 | --- | --- |
-| Latching SPST Footswitch | 1 |
-| 10K Resistor | 1 |
+| Latching SPST footswitch | 1 |
+| 10K resistor | 1 |
 | LED | 1 |
-| LED Holder | 1 |
+| LED holder | 1 |
 
 <br>
 
@@ -72,8 +80,8 @@ Isolate expression jack tabs (tape, bending?) to avoid shorting the tip to groun
 
 | Parts needed | Qty |
 | --- | --- |
-| 10K Linear Potentiometer | 1 |
-| Potentiometer Knob | 1 |
+| 10K linear potentiometer | 1 |
+| Potentiometer knob | 1 |
 
 <br>
 
@@ -116,7 +124,7 @@ Isolate expression jack tabs to avoid shorting the tip to ground when no plug is
 
 | Parts needed | Qty |
 | --- | --- |
-| Mono Jack | 1 |
+| Mono jack | 1 |
 
 <br>
 
@@ -137,8 +145,8 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 
 | Parts needed | Qty |
 | --- | --- |
-| Momentary SPST Footswitch | 1 |
-| (opt) XX Potentiometer | 1 |
+| Momentary or latching SPST footswitch | 1 |
+| (opt) XX potentiometer | 1 |
 
 <br>
 
@@ -150,12 +158,22 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 
 | Parts needed | Qty |
 | --- | --- |
-| 22K-24K Resistor | 2 |
+| 22K-24K resistor | 2 |
 | or |
-| 56K-68K Resistor | 2 |
+| 56K-68K resistor | 2 |
 
 <br>
 
 Either remove R36 and R37 and replace with 22K-24K resistors, or solder 56K-68K resistors parallel to the original resistors.
 ![resistors1](pictures/resistors1.jpg)
 ![resistors2](pictures/resistors2.jpg)
+
+
+<br>
+
+## Looper Shortcut Footswitch
+[Source](https://web.archive.org/web/20200301050201/http://www.pedalhaven.com/line-6-dl4-mods-looper-switch/)
+
+| Parts needed | Qty |
+| --- | --- |
+| Latching SPST footswitch | 1 |

@@ -1,0 +1,215 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 5F97EFF2
+P 5050 2700
+F 0 "J?" H 4870 2683 50  0001 R CNN
+F 1 "Tap Jack" H 4870 2729 50  0000 R CNN
+F 2 "" H 5050 2700 50  0001 C CNN
+F 3 "~" H 5050 2700 50  0001 C CNN
+	1    5050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F980E46
+P 4850 2700
+F 0 "TP?" V 5045 2772 50  0001 C CNN
+F 1 "Tap Switch Pad 1" V 4850 3250 50  0000 C CNN
+F 2 "" H 5050 2700 50  0001 C CNN
+F 3 "~" H 5050 2700 50  0001 C CNN
+	1    4850 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F982081
+P 4850 2800
+F 0 "TP?" V 5045 2872 50  0001 C CNN
+F 1 "Tap Switch Pad 2" V 4850 3350 50  0000 C CNN
+F 2 "" H 5050 2800 50  0001 C CNN
+F 3 "~" H 5050 2800 50  0001 C CNN
+	1    4850 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT 10K
+U 1 1 5F9824CC
+P 8350 2700
+F 0 "10K" H 8280 2746 50  0000 R CNN
+F 1 "Expression Knob" H 8280 2655 50  0000 R CNN
+F 2 "" H 8350 2700 50  0001 C CNN
+F 3 "~" H 8350 2700 50  0001 C CNN
+	1    8350 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2550 8200 2550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F98344F
+P 8150 2550
+F 0 "TP?" V 8345 2622 50  0001 C CNN
+F 1 "Expression Jack Tip" V 8150 3150 50  0000 C CNN
+F 2 "" H 8350 2550 50  0001 C CNN
+F 3 "~" H 8350 2550 50  0001 C CNN
+	1    8150 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F98401E
+P 8150 2850
+F 0 "TP?" V 8345 2922 50  0001 C CNN
+F 1 "Expression Jack Sleeve" V 8150 3500 50  0000 C CNN
+F 2 "" H 8350 2850 50  0001 C CNN
+F 3 "~" H 8350 2850 50  0001 C CNN
+	1    8150 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 2700 8200 2550
+Connection ~ 8200 2550
+Wire Wire Line
+	8200 2550 8350 2550
+Wire Wire Line
+	8150 2850 8350 2850
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5F98BC12
+P 4750 3550
+F 0 "SW?" H 4750 3835 50  0001 C CNN
+F 1 "Toggle Switch" H 4750 3743 50  0000 C CNN
+F 2 "" H 4750 3550 50  0001 C CNN
+F 3 "~" H 4750 3550 50  0001 C CNN
+	1    4750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F98C648
+P 5000 3450
+F 0 "TP?" V 5195 3522 50  0001 C CNN
+F 1 "Expression Knob" V 5000 4000 50  0000 C CNN
+F 2 "" H 5200 3450 50  0001 C CNN
+F 3 "~" H 5200 3450 50  0001 C CNN
+	1    5000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F98D463
+P 5000 3650
+F 0 "TP?" V 5195 3722 50  0001 C CNN
+F 1 "Double Preset Footswitch" V 5000 4350 50  0000 C CNN
+F 2 "" H 5200 3650 50  0001 C CNN
+F 3 "~" H 5200 3650 50  0001 C CNN
+	1    5000 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F98D7AC
+P 4500 3550
+F 0 "TP?" V 4695 3622 50  0001 C CNN
+F 1 "Expression Jack Tip" V 4500 4150 50  0000 C CNN
+F 2 "" H 4700 3550 50  0001 C CNN
+F 3 "~" H 4700 3550 50  0001 C CNN
+	1    4500 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3550 4550 3550
+Wire Wire Line
+	4950 3450 5000 3450
+Wire Wire Line
+	4950 3650 5000 3650
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5F99E3FC
+P 8000 3350
+F 0 "SW?" H 8000 3635 50  0001 C CNN
+F 1 "Footswitch" H 8000 3543 50  0000 C CNN
+F 2 "" H 8000 3350 50  0001 C CNN
+F 3 "~" H 8000 3350 50  0001 C CNN
+	1    8000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F99EE21
+P 7600 3500
+F 0 "R?" H 7670 3546 50  0001 L CNN
+F 1 "10K" H 7670 3500 50  0000 L CNN
+F 2 "" V 7530 3500 50  0001 C CNN
+F 3 "~" H 7600 3500 50  0001 C CNN
+	1    7600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F99F5E5
+P 8400 3500
+F 0 "D?" V 8439 3382 50  0001 R CNN
+F 1 "LED" V 8393 3382 50  0000 R CNN
+F 2 "" H 8400 3500 50  0001 C CNN
+F 3 "~" H 8400 3500 50  0001 C CNN
+	1    8400 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 3250 8400 3250
+Wire Wire Line
+	8400 3250 8400 3350
+Wire Wire Line
+	8400 3650 8200 3650
+Wire Wire Line
+	7800 3350 7600 3350
+Wire Wire Line
+	8200 3450 8200 3650
+Connection ~ 8200 3650
+Wire Wire Line
+	8200 3650 7600 3650
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F9A21F5
+P 7500 3650
+F 0 "TP?" V 7695 3722 50  0001 C CNN
+F 1 "Expression Jack Sleeve" V 7500 4300 50  0000 C CNN
+F 2 "" H 7700 3650 50  0001 C CNN
+F 3 "~" H 7700 3650 50  0001 C CNN
+	1    7500 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F9A2A06
+P 7500 3350
+F 0 "TP?" V 7695 3422 50  0001 C CNN
+F 1 "Expression Jack Tip" V 7500 3950 50  0000 C CNN
+F 2 "" H 7700 3350 50  0001 C CNN
+F 3 "~" H 7700 3350 50  0001 C CNN
+	1    7500 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 3350 7500 3350
+Connection ~ 7600 3350
+Wire Wire Line
+	7600 3650 7500 3650
+Connection ~ 7600 3650
+$EndSCHEMATC
