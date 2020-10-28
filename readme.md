@@ -1,10 +1,3 @@
-# DL4 Mods
-
-
-
-
-<br>
-
 ## Switch Replacement wip
 
 | Parts needed | Qty |
