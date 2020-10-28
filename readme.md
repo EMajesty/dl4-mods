@@ -6,7 +6,7 @@
 ## Switch Replacement wip
 
 | Parts needed | Qty |
-| --- | --- |
+| ------------ | ----- |
 | Momentary SPST Footswitch | 4 |
 <br>
 
