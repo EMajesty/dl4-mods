@@ -1,12 +1,22 @@
-# ⚠ If it smells like chicken you're holding the soldering iron wrong ⚠
+# ⚠ If it smells like chicken you're doing it wrong ⚠
 
 <br>
 
-## Disassembly
+## ⚠ Disassembly
+
+Knobs
+
+Jack nuts
+
+Bottom plate
+
+Remove the four screws and the hex standoff. To make room for the external tap tempo jack and the expression knob, desolder the battery cables and remove the battery contacts.
+
+![dis4](pictures/disassembly4.jpg)
 
 <br>
 
-## Switch Replacement wip
+## ⚠ Switch Replacement
 
 | Parts needed | Qty |
 | --- | --- |
@@ -14,7 +24,7 @@
 
 <br>
 
-Disassemble the pedal, remove the old switch bodies. Remove nubs in switch holes with e.g. a file, rotary tool or a 12mm / 1/2" drill bit.
+Remove the old switch bodies. Remove nubs in switch holes with e.g. a file, rotary tool or a 12mm / 1/2" drill bit.
 
 ![switches1](pictures/switches1.jpg)
 
@@ -48,7 +58,7 @@ If using 5mm LEDs you might have to drill the holes in the enclosure to match.
 
 <br>
 
-## Double Presets Footswitch wip
+## ⚠ Double Presets Footswitch
 
 | Parts needed | Qty |
 | --- | --- |
@@ -76,7 +86,7 @@ Isolate expression jack tabs (tape, bending?) to avoid shorting the tip to groun
 
 <br>
 
-## Expression Knob wip
+## ⚠ Expression Knob
 
 | Parts needed | Qty |
 | --- | --- |
@@ -100,7 +110,7 @@ Isolate expression jack tabs to avoid shorting the tip to ground when no plug is
 
 <br>
 
-## Switching between double presets and expression knob wip
+## ⚠ Switching between double presets and expression knob
 
 | Parts needed | Qty |
 | --- | --- |
@@ -119,7 +129,7 @@ Isolate expression jack tabs to avoid shorting the tip to ground when no plug is
 
 <br>
 
-## External Tap Tempo wip
+## ⚠ External Tap Tempo
 [Source](https://web.archive.org/web/20110130235011/http://kyleagee.com/?page_id=105)
 
 | Parts needed | Qty |
@@ -140,7 +150,7 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 
 <br>
 
-## Feedback Loop wip
+## ⚠ Feedback Loop
 [Source](https://web.archive.org/web/20101130103726/http://experimentalistsanonymous.com/board/index.php?topic=82.msg3557)
 
 | Parts needed | Qty |
@@ -171,7 +181,7 @@ Either remove R36 and R37 and replace with 22K-24K resistors, or solder 56K-68K 
 
 <br>
 
-## Looper Shortcut Footswitch
+## ⚠ Looper Shortcut Footswitch
 [Source](https://web.archive.org/web/20200301050201/http://www.pedalhaven.com/line-6-dl4-mods-looper-switch/)
 
 | Parts needed | Qty |
