@@ -1,12 +1,15 @@
-## 🧨 Disassembly ⚠
+# 🧨 Disassembly
 
-```
-Knobs
 
-Jack nuts
+Remove the potentiometer knobs by pulling or carefully prying with a flathead screwdriver.
 
-Bottom plate
-```
+Undo the jack nuts.
+
+![jack nuts](pictures/jacks.jpg)
+
+Unscrew the five screws on the bottom.
+
+![bottom](pictures/bottom.jpg)
 
 Remove the four screws and the hex standoff.
 
@@ -18,13 +21,23 @@ Lift the PCB out by the front (standoff side) edge.
 
 <br>
 
-## 🔩 Switch Replacement ⚠
+# 🔩 Switch Replacement
+
+<br>
+
+
+
+<br>
 
 | Parts needed | Qty |
 | --- | --- |
 | Momentary SPST footswitch | 4 |
 
 <br>
+
+Desolder or destroy the original tactile switches.
+
+![fs](pictures/switches5.jpg)
 
 Remove the old switch bodies by undoing the nut on the outside.
 
@@ -34,17 +47,15 @@ Remove nubs in switch holes with e.g. a file, rotary tool or a 12mm / 1/2" drill
 
 Install the switches without the nut or washers on the inside.
 
-This way the pcb should fit without desoldering the original tactile switches.
-
 ![switches2](pictures/switches2.jpg)
 
-Wire new switches to the pads of the tactile switches.
+Wire the new switches to the pads of the tactile switches, one wire on either of the top pads, one wire on a bottom pad. (The top pads are connected to each other and so are the bottom ones)
 
-```pic of soldered wires```
+![sw4](pictures/switches4.jpg)
 
 <br>
 
-## 💡 Led Replacement
+# 💡 Led Replacement ⚠
 
 | Parts needed | Qty |
 | --- | --- |
@@ -62,9 +73,21 @@ Using the spacers from the old LEDs, install the new LEDs aligning the longer le
 
 If using 5mm LEDs you might have to drill the holes in the enclosure to match.
 
+```
+pic of leds
+```
+
 <br>
 
-## 📚 Double Presets Footswitch
+# 📚 WIP Double Presets Footswitch WIP
+
+<br>
+
+NOT FULLY FUNCTIONAL YET
+
+This mod adds a bank of presets by acting like an expression pedal in full heel or toe position.
+
+<br>
 
 | Parts needed | Qty |
 | --- | --- |
@@ -95,9 +118,21 @@ If you're not using the toggle switch to choose between double presets / express
 
 ![footled](pictures/footled.jpg)
 
+You can solder the wire marked 'Expression Jack Sleeve' to any of these points.
+
+![gnd](pictures/gnd.jpg)
+
 <br>
 
-## 💨 Expression Knob
+# 💨 WIP Expression Knob WIP
+
+<br>
+
+NOT FULLY FUNCTIONAL YET
+
+The expression knob works like an external expression pedal would.
+
+<br>
 
 | Parts needed | Qty |
 | --- | --- |
@@ -122,14 +157,25 @@ If you're not using the toggle switch to choose between double presets / express
 
 ![exptip](pictures/exptip.jpg)
 
+You can wire the ground to a bottom pad of of a switch.
+
+![expgnd](pictures/expknob3.jpg)
+
 <br>
 
-## 💱 Switching between double presets and expression knob
+# 💱 WIP Switching between double presets and expression knob WIP
+
+<br>
+
+NOT FULLY FUNCTIONAL YET
+
+As the title implies, this switch switches between the double preset footswitch and the expression knob.
+
+<br>
 
 | Parts needed | Qty |
 | --- | --- |
 | SPDT toggle switch | 1 |
-
 
 <br>
 
@@ -144,8 +190,14 @@ Solder the wire from the toggle switch to the expression jack tip.
 
 <br>
 
-## 🎶 External Tap Tempo ⚠
+# 🎶 External Tap Tempo
 [Source](https://web.archive.org/web/20110130235011/http://kyleagee.com/?page_id=105)
+
+<br>
+
+The external tap tempo jack allows you to connect a separate switch box via a basic guitar/patch cable.
+
+<br>
 
 | Parts needed | Qty |
 | --- | --- |
@@ -162,12 +214,20 @@ Drill a hole for the jack on the end of the battery bay approx. 20mm from the fr
 
 The jack is installed parallel to the tap tempo switch, connecting the jack's tip to a top pad of the switch, sleeve on a bottom pad.
 
-```pic of soldered wires```
+![tapjack](pictures/tapjack.jpg)
 
 <br>
 
-## 💫 Feedback Loop ⚠
+# 💫 WIP Feedback Loop WIP
 [Source](https://web.archive.org/web/20101130103726/http://experimentalistsanonymous.com/board/index.php?topic=82.msg3557)
+
+<br>
+
+NOT FULLY FUNCTIONAL YET
+
+This mod adds a footswitchable feedback loop with an optional potentiometer in series to control the amount of feedback.
+
+<br>
 
 | Parts needed | Qty |
 | --- | --- |
@@ -186,12 +246,20 @@ You can barely fit another footswitch above the power jack. Below it is a nice s
 
 ![feedback](pictures/feedback1.jpg)
 
-```pic of soldered wires here```
+Here the wires are soldered to the left input jack tip and the left output jack tip.
+
+![fb2](pictures/feedback2.jpg)
 
 <br>
 
-## 🔊 Volume Drop Fix
+# 🔊 Volume Drop Fix
 [Source](https://web.archive.org/web/20201027203217/https://www.harmonycentral.com/forums/topic/119557-line-6-mm4dl4-volume-fix-without-using-smt-resistors/)
+
+<br>
+
+Some people experience a problem with volume drop. This mod increases the gain of the output buffers fixing the issue.
+
+<br>
 
 | Parts needed | Qty |
 | --- | --- |
@@ -209,8 +277,14 @@ Either remove R36 and R37 and replace with 22K-24K resistors, or solder 56K-68K 
 
 <br>
 
-## ⭕ Looper Shortcut Footswitch ⚠
+# ⭕ Looper Shortcut Footswitch
 [Source](https://web.archive.org/web/20200301050201/http://www.pedalhaven.com/line-6-dl4-mods-looper-switch/)
+
+<br>
+
+The looper shortcut footswitch allows you to switch between the delay and the looper setting via a footswitch.
+
+<br>
 
 | Parts needed | Qty |
 | --- | --- |
@@ -221,6 +295,24 @@ Either remove R36 and R37 and replace with 22K-24K resistors, or solder 56K-68K 
 | LED | 1 |
 | LED holder | 1 |
 
-```find 3V for led```
+<br>
+
+![loopschem](pictures/loopswitchschem.png)
+
+Cut the leftmost leg in the middle and bend the remaining stubs outward.
+
+![looppin1](pictures/looppin1.jpg)
+
+Solder the wires from the footswitch to each end of the cut rotary switch leg.
+
+![looppin2](pictures/looppin2.jpg)
+
+We can tap into the 3.3V rail from the positive leg of C58 to power the LED.
+
+![ledpower](pictures/loopledpower.jpg)
+
+Red is LED's positive wire, black is negative and goes to the switch.
+
+![ledpower2](pictures/loopledpower2.jpg)
 
 ![footled](pictures/footled.jpg)
