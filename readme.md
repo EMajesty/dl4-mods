@@ -1,5 +1,6 @@
 # 🧨 Disassembly
 
+<br>
 
 Remove the potentiometer knobs by pulling or carefully prying with a flathead screwdriver.
 
@@ -35,7 +36,7 @@ Replace the flimsy original switches with heavier duty ones.
 
 <br>
 
-Desolder or destroy the original tactile switches.
+Desolder or destroy the original tactile switches. Be careful not to lift a solder pad or cut a trace.
 
 ![fs](pictures/switches5.jpg)
 
@@ -81,6 +82,8 @@ pic of leds
 
 # 📚 WIP Double Presets Footswitch WIP
 
+```add source```
+
 <br>
 
 NOT FULLY FUNCTIONAL YET
@@ -125,6 +128,8 @@ You can solder the wire marked 'Expression Jack Sleeve' to any of these points.
 <br>
 
 # 💨 WIP Expression Knob WIP
+
+```add source```
 
 <br>
 
