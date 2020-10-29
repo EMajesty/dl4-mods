@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5F97EFF2
-P 2650 1850
-F 0 "J?" H 2470 1833 50  0001 R CNN
-F 1 "Tap Jack" H 2470 1879 50  0000 R CNN
-F 2 "" H 2650 1850 50  0001 C CNN
-F 3 "~" H 2650 1850 50  0001 C CNN
-	1    2650 1850
+P 2050 1850
+F 0 "J?" H 1870 1833 50  0001 R CNN
+F 1 "Tap Jack" H 1870 1879 50  0000 R CNN
+F 2 "" H 2050 1850 50  0001 C CNN
+F 3 "~" H 2050 1850 50  0001 C CNN
+	1    2050 1850
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F980E46
-P 2450 1850
-F 0 "TP?" V 2645 1922 50  0001 C CNN
-F 1 "Tap switch top pad" V 2450 2400 50  0000 C CNN
-F 2 "" H 2650 1850 50  0001 C CNN
-F 3 "~" H 2650 1850 50  0001 C CNN
-	1    2450 1850
+P 1850 1850
+F 0 "TP?" V 2045 1922 50  0001 C CNN
+F 1 "Tap switch top pad" V 1850 2400 50  0000 C CNN
+F 2 "" H 2050 1850 50  0001 C CNN
+F 3 "~" H 2050 1850 50  0001 C CNN
+	1    1850 1850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -237,7 +237,7 @@ Text Notes 7850 1500 0    98   ~ 0
 Double Presets Footswitch
 Text Notes 4800 1550 0    98   ~ 0
 Expression Knob
-Text Notes 1450 1600 0    98   ~ 0
+Text Notes 1700 1550 0    98   ~ 0
 External Tap Tempo Jack
 $Comp
 L power:GND #PWR?
@@ -252,21 +252,21 @@ F 3 "" H 5700 2050 50  0001 C CNN
 $EndComp
 Text Notes 5200 2400 0    49   ~ 0
 e.g. expression jack sleeve\nor footswitch bottom pad
-Text Notes 1900 2250 0    49   ~ 0
+Text Notes 1300 2250 0    49   ~ 0
 e.g. tap switch bottom pad
 $Comp
 L power:GND #PWR?
 U 1 1 5FA01EB8
-P 2400 1950
-F 0 "#PWR?" H 2400 1700 50  0001 C CNN
-F 1 "GND" H 2405 1777 50  0000 C CNN
-F 2 "" H 2400 1950 50  0001 C CNN
-F 3 "" H 2400 1950 50  0001 C CNN
-	1    2400 1950
+P 1800 1950
+F 0 "#PWR?" H 1800 1700 50  0001 C CNN
+F 1 "GND" H 1805 1777 50  0000 C CNN
+F 2 "" H 1800 1950 50  0001 C CNN
+F 3 "" H 1800 1950 50  0001 C CNN
+	1    1800 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 1950 2400 1950
+	1850 1950 1800 1950
 $Comp
 L power:GND #PWR?
 U 1 1 5FA02C5F
@@ -289,86 +289,118 @@ Wire Wire Line
 Wire Wire Line
 	6500 2950 6500 3100
 Connection ~ 6500 3100
+Text Notes 8200 2800 0    98   ~ 0
+Loop shortcut footswitch
 $Comp
-L Switch:SW_DPST SW?
-U 1 1 5FA04EB1
-P 9100 3300
-F 0 "SW?" H 9100 3625 50  0001 C CNN
-F 1 "Loop Footswitch" H 9100 3533 50  0000 C CNN
-F 2 "" H 9100 3300 50  0001 C CNN
-F 3 "~" H 9100 3300 50  0001 C CNN
-	1    9100 3300
+L Connector:AudioJack2 J?
+U 1 1 5FA205FD
+P 3250 1850
+F 0 "J?" H 3070 1833 50  0001 R CNN
+F 1 "Ext. box" H 3071 1879 50  0000 R CNN
+F 2 "" H 3250 1850 50  0001 C CNN
+F 3 "~" H 3250 1850 50  0001 C CNN
+	1    3250 1850
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5FA20EB2
+P 3750 1850
+F 0 "SW?" H 3750 2085 50  0001 C CNN
+F 1 "Footswitch" H 3750 1993 50  0000 C CNN
+F 2 "" H 3750 1850 50  0001 C CNN
+F 3 "~" H 3750 1850 50  0001 C CNN
+	1    3750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1850 3550 1850
+Wire Wire Line
+	3950 1850 4000 1850
+Wire Wire Line
+	4000 1850 4000 1950
+Wire Wire Line
+	4000 1950 3450 1950
+$Comp
+L Switch:SW_Push_DPDT SW?
+U 1 1 5FA23990
+P 9100 3500
+F 0 "SW?" H 9100 3985 50  0001 C CNN
+F 1 "Loop Footswitch" H 9100 3893 50  0000 C CNN
+F 2 "" H 9100 3700 50  0001 C CNN
+F 3 "~" H 9100 3700 50  0001 C CNN
+	1    9100 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP?
-U 1 1 5FA06C6B
-P 8800 3200
-F 0 "TP?" V 8995 3272 50  0001 C CNN
-F 1 "Rotary switch" V 8800 3650 50  0000 C CNN
-F 2 "" H 9000 3200 50  0001 C CNN
-F 3 "~" H 9000 3200 50  0001 C CNN
-	1    8800 3200
+U 1 1 5FA24072
+P 8800 3300
+F 0 "TP?" V 8995 3372 50  0001 C CNN
+F 1 "Rotary switch" V 8800 3750 50  0000 C CNN
+F 2 "" H 9000 3300 50  0001 C CNN
+F 3 "~" H 9000 3300 50  0001 C CNN
+	1    8800 3300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
-U 1 1 5FA07711
-P 8800 2950
-F 0 "TP?" V 8995 3022 50  0001 C CNN
-F 1 "Rotary switch" V 8800 3400 50  0000 C CNN
-F 2 "" H 9000 2950 50  0001 C CNN
-F 3 "~" H 9000 2950 50  0001 C CNN
-	1    8800 2950
+U 1 1 5FA2490A
+P 8800 3000
+F 0 "TP?" V 8995 3072 50  0001 C CNN
+F 1 "Rotary switch" V 8800 3450 50  0000 C CNN
+F 2 "" H 9000 3000 50  0001 C CNN
+F 3 "~" H 9000 3000 50  0001 C CNN
+	1    8800 3000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8800 2950 9500 2950
+	8800 3000 9500 3000
 Wire Wire Line
-	9500 2950 9500 3200
-Wire Wire Line
-	9500 3200 9300 3200
-Wire Wire Line
-	8800 3200 8900 3200
-$Comp
-L Device:LED D?
-U 1 1 5FA088D4
-P 9750 3250
-F 0 "D?" V 9789 3132 50  0001 R CNN
-F 1 "LED" H 9743 3087 50  0000 C CNN
-F 2 "" H 9750 3250 50  0001 C CNN
-F 3 "~" H 9750 3250 50  0001 C CNN
-	1    9750 3250
-	0    1    1    0   
-$EndComp
+	8900 3300 8800 3300
 $Comp
 L power:GND #PWR?
-U 1 1 5FA0C401
-P 8800 3400
-F 0 "#PWR?" H 8800 3150 50  0001 C CNN
-F 1 "GND" V 8805 3272 50  0000 R CNN
-F 2 "" H 8800 3400 50  0001 C CNN
-F 3 "" H 8800 3400 50  0001 C CNN
-	1    8800 3400
+U 1 1 5FA262D8
+P 8750 3700
+F 0 "#PWR?" H 8750 3450 50  0001 C CNN
+F 1 "GND" V 8755 3572 50  0000 R CNN
+F 2 "" H 8750 3700 50  0001 C CNN
+F 3 "" H 8750 3700 50  0001 C CNN
+	1    8750 3700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 3400 8800 3400
+	8750 3700 8900 3700
+Text Notes 8050 3850 0    49   ~ 0
+e.g. expression jack sleeve
+$Comp
+L Device:LED D?
+U 1 1 5FA280D6
+P 9800 3450
+F 0 "D?" V 9839 3332 50  0001 R CNN
+F 1 "LED" H 9793 3287 50  0000 C CNN
+F 2 "" H 9800 3450 50  0001 C CNN
+F 3 "~" H 9800 3450 50  0001 C CNN
+	1    9800 3450
+	0    1    1    0   
+$EndComp
 $Comp
 L power:VCC #PWR?
-U 1 1 5FA0F47F
-P 9750 3100
-F 0 "#PWR?" H 9750 2950 50  0001 C CNN
-F 1 "VCC" H 9800 3250 50  0000 L CNN
-F 2 "" H 9750 3100 50  0001 C CNN
-F 3 "" H 9750 3100 50  0001 C CNN
-	1    9750 3100
+U 1 1 5FA280DC
+P 9800 3300
+F 0 "#PWR?" H 9800 3150 50  0001 C CNN
+F 1 "VCC" H 9850 3450 50  0000 L CNN
+F 2 "" H 9800 3300 50  0001 C CNN
+F 3 "" H 9800 3300 50  0001 C CNN
+	1    9800 3300
 	1    0    0    -1  
 $EndComp
-Text Notes 7950 2800 0    98   ~ 0
-Loop shortcut footswitch
-Text Notes 8050 3550 0    49   ~ 0
-e.g. expression jack sleeve
+Text Notes 9850 3300 0    49   ~ 0
+C58 positive leg
 Wire Wire Line
-	9750 3400 9300 3400
+	9500 3400 9300 3400
+Wire Wire Line
+	9500 3000 9500 3400
+Wire Wire Line
+	9800 3600 9300 3600
 $EndSCHEMATC

@@ -25,7 +25,7 @@ Lift the PCB out by the front (standoff side) edge.
 
 <br>
 
-
+Replace the flimsy original switches with heavier duty ones.
 
 <br>
 
