@@ -56,7 +56,7 @@ Wire the new switches to the pads of the tactile switches, one wire on either of
 
 <br>
 
-# 💡 Led Replacement ⚠
+# 💡 Led Replacement
 
 | Parts needed | Qty |
 | --- | --- |
