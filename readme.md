@@ -1,10 +1,12 @@
 ## 🧨 Disassembly ⚠
 
+```
 Knobs
 
 Jack nuts
 
 Bottom plate
+```
 
 Remove the four screws and the hex standoff.
 
@@ -38,8 +40,7 @@ This way the pcb should fit without desoldering the original tactile switches.
 
 Wire new switches to the pads of the tactile switches.
 
-
-
+```pic of soldered wires```
 
 <br>
 
@@ -61,12 +62,9 @@ Using the spacers from the old LEDs, install the new LEDs aligning the longer le
 
 If using 5mm LEDs you might have to drill the holes in the enclosure to match.
 
-
-
-
 <br>
 
-## 📚 Double Presets Footswitch ⚠
+## 📚 Double Presets Footswitch
 
 | Parts needed | Qty |
 | --- | --- |
@@ -87,14 +85,19 @@ You might have to resolder C15 flat if it touches the switch.
 
 ![cap](pictures/cap.jpg)
 
-Isolate expression jack tabs (tape, bending?) to avoid shorting the tip to ground when no plug is inserted
+Somebody somewhere said one should isolate the switching tip contact of the expression pedal jack, for example by sticking tape between the contacts. 
 
-(pic of isolated tabs)
+![expisolate](pictures/expisolate.jpg)
 
+If you're not using the toggle switch to choose between double presets / expression knob, solder the wire from the footswitch to the expression jack tip.
+
+![exptip](pictures/exptip.jpg)
+
+![footled](pictures/footled.jpg)
 
 <br>
 
-## 💨 Expression Knob ⚠
+## 💨 Expression Knob
 
 | Parts needed | Qty |
 | --- | --- |
@@ -111,28 +114,32 @@ Drill a hole for the potentiometer on an end of the battery bay approx. 20mm fro
 
 ![expknob2](pictures/expknob2.jpg)
 
-Isolate expression jack tabs to avoid shorting the tip to ground when no plug is inserted
+Somebody somewhere said one should isolate the switching tip contact of the expression pedal jack, for example by sticking tape between the contacts. 
 
-(pic of jack tabs)
+![expisolate](pictures/expisolate.jpg)
 
+If you're not using the toggle switch to choose between double presets / expression knob, solder the wire from the potentiometer to the expression jack tip.
+
+![exptip](pictures/exptip.jpg)
 
 <br>
 
-## 💱 Switching between double presets and expression knob ⚠
+## 💱 Switching between double presets and expression knob
 
 | Parts needed | Qty |
 | --- | --- |
 | SPDT toggle switch | 1 |
 
+
 <br>
 
 ![toggleschem](pictures/toggleschem.png)
 
-
-
 ![switch1](pictures/switch1.jpg)
 
+Solder the wire from the toggle switch to the expression jack tip.
 
+![exptip](pictures/exptip.jpg)
 
 
 <br>
@@ -155,6 +162,7 @@ Drill a hole for the jack on the end of the battery bay approx. 20mm from the fr
 
 The jack is installed parallel to the tap tempo switch, connecting the jack's tip to a top pad of the switch, sleeve on a bottom pad.
 
+```pic of soldered wires```
 
 <br>
 
@@ -164,10 +172,21 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 | Parts needed | Qty |
 | --- | --- |
 | Momentary or latching SPST footswitch | 1 |
-| (opt) XX potentiometer | 1 |
+
+| Optional | Qty |
+| --- | --- |
+| 1M potentiometer | 1 |
+| Potentiometer knob | 1 |
 
 <br>
 
+![feedbackschem](pictures/feedbackschem.png)
+
+You can barely fit another footswitch above the power jack. Below it is a nice spot for the feedback amount potentiometer if you don't mind a hole in the preset texts.
+
+![feedback](pictures/feedback1.jpg)
+
+```pic of soldered wires here```
 
 <br>
 
@@ -188,7 +207,6 @@ Either remove R36 and R37 and replace with 22K-24K resistors, or solder 56K-68K 
 
 ![resistors2](pictures/resistors2.jpg)
 
-
 <br>
 
 ## ⭕ Looper Shortcut Footswitch ⚠
@@ -197,3 +215,12 @@ Either remove R36 and R37 and replace with 22K-24K resistors, or solder 56K-68K 
 | Parts needed | Qty |
 | --- | --- |
 | Latching SPST footswitch | 1 |
+
+| Optional | Qty |
+| --- | --- |
+| LED | 1 |
+| LED holder | 1 |
+
+```find 3V for led```
+
+![footled](pictures/footled.jpg)
