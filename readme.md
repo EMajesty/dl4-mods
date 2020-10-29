@@ -1,7 +1,3 @@
-# 
-
-<br>
-
 ## 🧨 Disassembly ⚠
 
 Knobs
