@@ -98,7 +98,7 @@ This mod adds a second set of presets by acting like an expression pedal in full
 
 | Parts needed | Qty |
 | --- | --- |
-| Latching SPST footswitch | 1 |
+| Latching DPDT footswitch | 1 |
 | 10K resistor | 1 |
 
 <br>
