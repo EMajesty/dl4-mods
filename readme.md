@@ -1,3 +1,5 @@
+# 📡 DL4 Mods 📡
+
 # 🧨 Disassembly
 
 <br>
@@ -80,15 +82,13 @@ pic of leds
 
 <br>
 
-# 📚 WIP Double Presets Footswitch WIP
+# 📚 Double Presets Footswitch
 
 ```add source```
 
 <br>
 
-NOT FULLY FUNCTIONAL YET
-
-This mod adds a bank of presets by acting like an expression pedal in full heel or toe position.
+This mod adds a second set of presets by acting like an expression pedal in full heel or toe position.
 
 <br>
 
@@ -96,6 +96,11 @@ This mod adds a bank of presets by acting like an expression pedal in full heel 
 | --- | --- |
 | Latching SPST footswitch | 1 |
 | 10K resistor | 1 |
+
+<br>
+
+| Optional | Qty |
+| --- | --- |
 | LED | 1 |
 | LED holder | 1 |
 
@@ -127,13 +132,11 @@ You can solder the wire marked 'Expression Jack Sleeve' to any of these points.
 
 <br>
 
-# 💨 WIP Expression Knob WIP
+# 💨 Expression Knob
 
 ```add source```
 
 <br>
-
-NOT FULLY FUNCTIONAL YET
 
 The expression knob works like an external expression pedal would.
 
@@ -162,19 +165,13 @@ If you're not using the toggle switch to choose between double presets / express
 
 ![exptip](pictures/exptip.jpg)
 
-You can wire the ground to a bottom pad of of a switch.
+You can wire the ground to a bottom pad of a switch.
 
 ![expgnd](pictures/expknob3.jpg)
 
 <br>
 
-# 💱 WIP Switching between double presets and expression knob WIP
-
-<br>
-
-NOT FULLY FUNCTIONAL YET
-
-As the title implies, this switch switches between the double preset footswitch and the expression knob.
+# 💱 Switching between double presets and expression knob
 
 <br>
 
@@ -200,7 +197,7 @@ Solder the wire from the toggle switch to the expression jack tip.
 
 <br>
 
-The external tap tempo jack allows you to connect a separate switch box via a basic guitar/patch cable.
+The external tap tempo jack allows you to connect a separate switch box via a cable.
 
 <br>
 
@@ -223,12 +220,10 @@ The jack is installed parallel to the tap tempo switch, connecting the jack's ti
 
 <br>
 
-# 💫 WIP Feedback Loop WIP
+# 💫 Feedback Loop
 [Source](https://web.archive.org/web/20101130103726/http://experimentalistsanonymous.com/board/index.php?topic=82.msg3557)
 
 <br>
-
-NOT FULLY FUNCTIONAL YET
 
 This mod adds a footswitchable feedback loop with an optional potentiometer in series to control the amount of feedback.
 
@@ -240,7 +235,8 @@ This mod adds a footswitchable feedback loop with an optional potentiometer in s
 
 | Optional | Qty |
 | --- | --- |
-| 1M potentiometer | 1 |
+| 250K potentiometer | 1 |
+| 68K resistor | 1 |
 | Potentiometer knob | 1 |
 
 <br>
