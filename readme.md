@@ -2,6 +2,10 @@
 
 <br>
 
+![vanilla](pictures/vanilla.jpg)
+
+<br>
+
 ![dl4](pictures/dl4.jpg)
 
 <br>
