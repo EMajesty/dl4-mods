@@ -2,6 +2,10 @@
 
 <br>
 
+![dl4](pictures/dl4.jpg)
+
+<br>
+
 # 🧨 Disassembly
 
 <br>
@@ -78,9 +82,7 @@ Using the spacers from the old LEDs, install the new LEDs aligning the longer le
 
 If using 5mm LEDs you might have to drill the holes in the enclosure to match.
 
-```
-pic of leds
-```
+![leds3](pictures/leds3.jpg)
 
 <br>
 
