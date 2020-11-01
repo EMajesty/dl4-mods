@@ -114,7 +114,7 @@ This mod adds a second set of presets by acting like an expression pedal in full
 
 ![switches3](pictures/switches3.jpg)
 
-Marking the holes is easier if you fit the white footswitch washer in the recess away from the center, then find the center. This way the switches shouldn't conflict with the jacks.
+Marking the holes is easier if you fit the white footswitch washer that comes with most 3PDT switches in the recess, then find the center. This way the switches shouldn't conflict with the jacks.
 
 You might have to resolder C15 flat if it touches the switch.
 
@@ -218,7 +218,7 @@ Drill a hole for the jack on the end of the battery bay approx. 20mm from the fr
 ![exttap](pictures/externaltap1.jpg)
 
 
-The jack is installed parallel to the tap tempo switch, connecting the jack's tip to a top pad of the switch, sleeve on a bottom pad.
+The jack is installed parallel with the tap tempo switch, connecting the jack's tip to a top pad of the switch, sleeve on a bottom pad.
 
 ![tapjack](pictures/tapjack.jpg)
 
@@ -242,6 +242,10 @@ This mod adds a footswitchable feedback loop with an optional potentiometer in s
 | 250K potentiometer | 1 |
 | 68K resistor | 1 |
 | Potentiometer knob | 1 |
+
+<br>
+
+The resistor is there to make the whole range of the potentiometer more usable. The values are a bit arbitraty but seem to work.
 
 <br>
 
@@ -293,7 +297,7 @@ The looper shortcut footswitch allows you to switch between the delay and the lo
 
 | Parts needed | Qty |
 | --- | --- |
-| Latching SPST footswitch | 1 |
+| Latching DPDT footswitch | 1 |
 
 | Optional | Qty |
 | --- | --- |
