@@ -1,5 +1,7 @@
 # 📡 DL4 Mods 📡
 
+<br>
+
 # 🧨 Disassembly
 
 <br>
@@ -84,7 +86,7 @@ pic of leds
 
 # 📚 Double Presets Footswitch
 
-```add source```
+[Source](https://www.diystompboxes.com/smfforum/index.php?topic=59261.0)
 
 <br>
 
@@ -134,7 +136,7 @@ You can solder the wire marked 'Expression Jack Sleeve' to any of these points.
 
 # 💨 Expression Knob
 
-```add source```
+[Source](https://web.archive.org/web/20201101212542/https://www.madbeanpedals.com/forum/index.php?topic=14394.msg134258)
 
 <br>
 
